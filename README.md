@@ -35,6 +35,7 @@
 | [Runway](https://runwayml.com/) | 通过文字或图片生成视频，并提供视频编辑功能，辅助镜头和短片创作。 |
 | [可灵 AI](https://klingai.kuaishou.com/) | 快手推出的 AI 视频创作工具，支持根据文字描述或参考图片生成视频。 |
 | [通义万相](https://wan.video/) | 阿里推出的 AI 视觉创作平台，支持文字生成视频、图片生成视频和图像创作。 |
+| [Topview T1](https://topview-t1.net/) | 据 Topview 官方介绍，视频效果接近 Seedance 2.5，1080p 生成成本降低约 60%。 |
 
 ## 开源项目学习
 

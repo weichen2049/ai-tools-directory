@@ -93,6 +93,13 @@
       "url": "https://wan.video/",
       "summary": "阿里推出的 AI 视觉创作平台，支持文字生成视频、图片生成视频和图像创作。",
       "categoryId": "ai-video"
+    },
+    {
+      "id": "topview-t1",
+      "name": "Topview T1",
+      "url": "https://topview-t1.net/",
+      "summary": "据 Topview 官方介绍，视频效果接近 Seedance 2.5，1080p 生成成本降低约 60%。",
+      "categoryId": "ai-video"
     }
   ]
 }
