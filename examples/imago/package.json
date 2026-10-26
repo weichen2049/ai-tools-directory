@@ -1,0 +1,44 @@
+{
+  "name": "imago",
+  "version": "1.0.0",
+  "description": "Full-stack AI image generation application tailored for open source.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "capture:og": "node scripts/generateOgImage.mjs",
+    "generate:og": "npm run build",
+    "postbuild": "node scripts/generateOgImage.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.927.0",
+    "@google/genai": "^1.28.0",
+    "@stripe/react-stripe-js": "^5.4.0",
+    "@stripe/stripe-js": "^8.5.2",
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.84.0",
+    "next": "^16.0.8",
+    "react": "19.0.1",
+    "react-dom": "19.0.1",
+    "stripe": "^20.0.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "autoprefixer": "10.4.19",
+    "eslint": "^9.15.0",
+    "eslint-config-next": "^16.0.8",
+    "playwright": "^1.48.2",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.6.2",
+    "vite": "^7.2.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.0.8"
+  }
+}

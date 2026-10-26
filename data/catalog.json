@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "status": "category-scaffold",
+  "categories": [
+    {
+      "id": "ai-tools",
+      "name": "通用 AI 工具",
+      "subcategories": [
+        {
+          "id": "chat-assistants",
+          "name": "对话助手"
+        },
+        {
+          "id": "search-research",
+          "name": "搜索与研究"
+        },
+        {
+          "id": "writing",
+          "name": "写作与内容"
+        },
+        {
+          "id": "office-productivity",
+          "name": "办公与知识管理"
+        },
+        {
+          "id": "coding",
+          "name": "编程与开发"
+        }
+      ]
+    },
+    {
+      "id": "ai-image",
+      "name": "AI 生图",
+      "subcategories": [
+        {
+          "id": "image-generation",
+          "name": "通用生图"
+        },
+        {
+          "id": "portraits",
+          "name": "人像与头像"
+        },
+        {
+          "id": "product-images",
+          "name": "商品与电商图"
+        },
+        {
+          "id": "graphic-design",
+          "name": "海报与品牌设计"
+        },
+        {
+          "id": "image-editing",
+          "name": "图片编辑与增强"
+        }
+      ]
+    },
+    {
+      "id": "ai-video",
+      "name": "AI 生视频",
+      "subcategories": [
+        {
+          "id": "text-to-video",
+          "name": "文生视频"
+        },
+        {
+          "id": "image-to-video",
+          "name": "图生视频"
+        },
+        {
+          "id": "avatars",
+          "name": "数字人与口播"
+        },
+        {
+          "id": "marketing-video",
+          "name": "营销与短片"
+        },
+        {
+          "id": "video-editing",
+          "name": "视频编辑与增强"
+        }
+      ]
+    }
+  ],
+  "tools": []
+}
