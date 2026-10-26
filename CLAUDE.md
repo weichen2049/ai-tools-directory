@@ -1,16 +1,16 @@
 # 项目约定
 
 ## 目标与结构
-- 本项目维护优质 AI 工具目录，一级分类为通用 AI 工具、AI 生图、AI 生视频。
+- 本项目维护优质 AI 工具目录，只设 AI 工具、AI 生图、AI 生视频三个大类，不设细分类。
 - README.md 是当前公开目录入口；data/catalog.json 是分类与产品记录的唯一数据源。
-- 当前只有分类骨架，tools 数组为空；不得编造已收录产品或评测结果。
+- 内容主要参考 AIProductHome，独立编写简短介绍并优先链接产品官网；不得编造评测结果。
 - examples/imago/ 是上游固定版本源码，来源见 examples/imago.upstream.json。保留上游 LICENSE、版权及说明。
 - 目录与生图示例分别维护；不把示例描述为本项目原创或已上线服务。
 
 ## 内容维护
-- 每个产品记录包含 id、name、url、summary、primaryCategoryId、subcategoryIds、pricing、recommendation、verifiedAt。
-- id 唯一；一个主分类，可有多个能力标签。免费、中文、开源属于筛选属性。
-- 收录前核对官网、当前功能、价格与链接；不把营销声明当作实测。
+- 每个产品只维护 id、name、url、summary、categoryId；公开展示名称、官网链接和一句话介绍。
+- id 唯一；每个产品只放一个主分类，不增加筛选体系或复杂标签。
+- 收录前核对官网和基本用途；暂不展示价格、模型版本及未经实测的质量排名。
 - 添加产品时同步更新 README 展示，分类结构与 catalog.json 保持一致。
 
 ## 开发与发布
