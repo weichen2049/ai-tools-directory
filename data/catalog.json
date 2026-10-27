@@ -4,10 +4,6 @@
   "referenceCheckedAt": "2026-10-26",
   "categories": [
     {
-      "id": "ai-tools",
-      "name": "AI 工具"
-    },
-    {
       "id": "ai-image",
       "name": "AI 生图"
     },
@@ -18,37 +14,13 @@
     {
       "id": "ai-all-in-one",
       "name": "图像&视频 All In One"
+    },
+    {
+      "id": "ai-tools",
+      "name": "AI 工具"
     }
   ],
   "tools": [
-    {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "url": "https://chatgpt.com/",
-      "summary": "通过对话完成问答、写作、资料整理、文件分析和代码编写。",
-      "categoryId": "ai-tools"
-    },
-    {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "url": "https://www.deepseek.com/",
-      "summary": "支持中文问答、推理和代码生成，帮助梳理思路、理解问题与辅助开发。",
-      "categoryId": "ai-tools"
-    },
-    {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "url": "https://www.perplexity.ai/",
-      "summary": "搜索并整理网页信息，回答问题时提供来源链接，便于查阅和核实。",
-      "categoryId": "ai-tools"
-    },
-    {
-      "id": "cursor",
-      "name": "Cursor",
-      "url": "https://cursor.com/",
-      "summary": "在代码编辑器中使用 AI，理解项目、编写代码、修改功能与排查错误。",
-      "categoryId": "ai-tools"
-    },
     {
       "id": "midjourney",
       "name": "Midjourney",
@@ -114,10 +86,38 @@
     },
     {
       "id": "flux3-ai",
-      "name": "Flux 3 AI",
+      "name": "Flux 3",
       "url": "https://flux3-ai.com/",
       "summary": "在同一平台通过文字或参考图片生成、编辑图像，并支持文字生成视频和图片生成视频，用于产品素材、社交内容与创意短片制作。",
       "categoryId": "ai-all-in-one"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "summary": "通过对话完成问答、写作、资料整理、文件分析和代码编写。",
+      "categoryId": "ai-tools"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://www.deepseek.com/",
+      "summary": "支持中文问答、推理和代码生成，帮助梳理思路、理解问题与辅助开发。",
+      "categoryId": "ai-tools"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "summary": "搜索并整理网页信息，回答问题时提供来源链接，便于查阅和核实。",
+      "categoryId": "ai-tools"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.com/",
+      "summary": "在代码编辑器中使用 AI，理解项目、编写代码、修改功能与排查错误。",
+      "categoryId": "ai-tools"
     }
   ]
 }
