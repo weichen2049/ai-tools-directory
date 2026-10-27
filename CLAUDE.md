@@ -1,7 +1,7 @@
 # 项目约定
 
 ## 目标与结构
-- 本项目维护优质 AI 工具目录，只设 AI 工具、AI 生图、AI 生视频三个大类，不设细分类。
+- 本项目维护优质 AI 工具目录，设 AI 工具、AI 生图、AI 生视频、图像&视频 All In One 四个大类，不设细分类。
 - README.md 是当前公开目录入口；data/catalog.json 是分类与产品记录的唯一数据源。
 - 内容主要参考 AIProductHome，独立编写简短介绍并优先链接产品官网；不得编造评测结果。
 - examples/imago/ 是上游固定版本源码，来源见 examples/imago.upstream.json。保留上游 LICENSE、版权及说明。

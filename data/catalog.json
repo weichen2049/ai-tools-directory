@@ -14,6 +14,10 @@
     {
       "id": "ai-video",
       "name": "AI 生视频"
+    },
+    {
+      "id": "ai-all-in-one",
+      "name": "图像&视频 All In One"
     }
   ],
   "tools": [
@@ -100,6 +104,20 @@
       "url": "https://topview-t1.net/",
       "summary": "据 Topview 官方介绍，视频效果接近 Seedance 2.5，1080p 生成成本降低约 60%。",
       "categoryId": "ai-video"
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "url": "https://higgsfield.ai/",
+      "summary": "集成多种图像与视频生成模型，提供图片编辑、视频特效和创作工作室，用于制作视觉内容与广告素材。",
+      "categoryId": "ai-all-in-one"
+    },
+    {
+      "id": "flux3-ai",
+      "name": "Flux 3 AI",
+      "url": "https://flux3-ai.com/",
+      "summary": "在同一平台通过文字或参考图片生成、编辑图像，并支持文字生成视频和图片生成视频，用于产品素材、社交内容与创意短片制作。",
+      "categoryId": "ai-all-in-one"
     }
   ]
 }
